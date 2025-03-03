@@ -1,14 +1,63 @@
-# Project
+# Prompty Cookbook: For Hands-on Learning
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
 
-As the maintainer of this project, please make a few updates:
+## About Prompty
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+[Prompty](https://github.com/microsoft/prompty) is an open-source project at Microsoft that speeds up the developers' inner loop for prompt engineering by bringing the playground experience directly into the IDE. 
+
+Prompty brings agency with observability to the development workflow, while improving developer experience with a focus on understandability.
+
+1. **Agency** -
+1. **Observability** -
+1. **Understandability** - 
+
+Prompty (OSS) consists of three core components:
+ 
+ 1. **Asset** - A language-agnost `.prompty` format with a YAML specification.
+ 1. **Tooling** - A VS Code extension to create and manage `.prompty` assets.
+ 1. **Runtime** - A language-specific execution environment for the asset.
+
+The project has runtimes for Python, JS/TS, .NET/C# and Java - in different levels of development. **Python is the most stable of these, and used by default in the cookbook**.
+
+## Prompty Integrations
+
+The project is being **adopted** by different platforms (e.g., Azure AI Foundry) in different contexts (e.g., as prompt template). We'll explore these in the **integrations** section of the cookbook - with clear examples to highlight recommended usage patterns.
+
+Assume that all cookbook examples work with the open-source Prompty tools and runtimes by default. Once validated with a specific integration, that sample will be annotated with additional guidance on usage with that platform.
+
+---
+
+## About This Cookbook
+
+The [Prompty](https://github.com/microsoft/prompty) repository contains the following resources:
+
+1. The [Prompty Specification]() file (asset format)
+1. The [Prompty Documentation]() source (powering website)
+1. The [Prompty Runtime]() library sources ()
+
+That repository should be considered the ground truth for all Prompty-related questions or usage patterns. When there is a discrepancy between that repo and this one, _prioritize the guidance in that source_.
+
+The cookbook is a supplement to the [official Documentation](https://prompty.ai) site with three objectives:
+
+1. **Show-vs-tell** - Use runnable `.prompty` examples to explain concepts intuitively.
+1. **Beginner-friendly** - Have structured paths for self-guided learners of any skill level
+1. **Contributor-friendly** - Add your samples to showcase new ideas, extensions
+
+---
+
+## Pre-Requisites
+
+
+---
+
+## Getting Started
+
+This repo has been populated with:
+- a [devcontainer](https://containers.dev) config - for quickstart dev environment setup.
+- an [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) - for web-based preview and search-enabled docs.
+
+
+---
 
 ## Contributing
 
